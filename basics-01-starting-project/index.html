@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Basics</title>
+    <!--font awesome-->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
       rel="stylesheet"
@@ -14,10 +17,75 @@
   
   <body>
     <header>
-      <h1>The Unconventional Calculator</h1>
+      <h1 id = "calculator" class="calc">The Unconventional Calculator</h1>
     </header>
 
-    <section id="calculator">
+    <p id="lator">A calculator is used to calculate numbers</p>
+    <div >
+    <ul style="list-style: none;" class="collection">
+      <li class="collection-items">rice</li>
+      <li class="collection-items">swallow</li>
+      <li class="collection-items">yam</li>
+      <li class="collection-items">noodles</li>
+      <li class="collection-items">beans</li>
+    </ul>
+    </div>
+
+    <div class="container">
+    <a href="#" class="button clear-tasks">Clear Tasks</a>
+    </div>
+
+
+    <form class="form-class">
+    <div class="card" style="background-color: #ffffff;">
+      <!-- Card Header -->
+      <div class="card-header">
+        <h2 class="heading" id="task-title">Card Title</h2>
+        <!-- Clear Icon -->
+      </div>
+
+      <div class="">
+      <input type="text" id="tasks" name="tasks" placeholder="type something here">
+      <input type="submit" value="Add Task" class="btn">
+
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      </div>
+
+
+
+      <!-- List Items -->
+      <ul class="list-items">
+        <li>List Item 1 
+          <a href="#" class="delete-item"><i class="fa fa-close"></i></a>
+        </li>
+        <li>List Item 2
+          <a href="#" class="delete-item"><i class="fa fa-close"></i></a>
+        </li>
+        <li>List Item 3 
+          <a href="#" class="delete-item"><i class="fa fa-close"></i></a>
+        </li>
+        <li>List Item 4 
+          <a href="#" class="delete-item"><i class="fa fa-close"></i></a>
+        </li>
+        <li>List Item 5 
+          <a href="#" class="delete-item"><i class="fa fa-close"></i></a>
+        </li>
+        <li>List Item 6
+          <a href="#" class="delete-item"><i class="fa fa-close"></i></a>
+        </li>
+        <!-- Add more list items as needed -->
+      </ul>
+      <!-- Anchor Button -->
+      <a href="#" class="button btn-clear">Button</a>
+    </div>
+    </form>
+
+    <!-- <section id="calculator">
       <input type="number" id="input-number" />
       <div id="calc-actions">
         <button type="button" id="btn-add">+</button>
@@ -29,7 +97,9 @@
     <section id="results">
       <h2 id="current-calculation">0</h2>
       <h2>Result: <span id="current-result">0</span></h2>
-    </section>
+    </section> -->
+
+
 
     
 
